@@ -58,7 +58,7 @@
                 maxlength="40"
                 pattern="[a-zA-Zа-яА-ЯёЁ\-\s]+"
               />
-              <span class="popup__input-error" id="user-name-error"></span>
+              <span class="popup__input-error popup__input_type_name-error"></span>
             </label>
             <label class="popup__label">
               <input
@@ -71,7 +71,7 @@
                 minlength="2"
                 maxlength="200"
               />
-              <span class="popup__input-error" id="user-description-error"></span>
+              <span class="popup__input-error popup__input_type_description-error"></span>
             </label>
             <button type="submit" class="button popup__button popup__button_disabled" disabled>
               Сохранить
@@ -98,7 +98,7 @@
                 maxlength="30"
                 pattern="[a-zA-Zа-яА-ЯёЁ\-\s]+"
               />
-              <span class="popup__input-error" id="place-name-error"></span>
+              <span class="popup__input-error popup__input_type_card-name-error"></span>
             </label>
             <label class="popup__label">
               <input
@@ -109,7 +109,7 @@
                 placeholder="Ссылка на картинку"
                 required
               />
-              <span class="popup__input-error" id="place-link-error"></span>
+              <span class="popup__input-error popup__input_type_url-error"></span>
             </label>
             <button type="submit" class="button popup__button popup__button_disabled" disabled>
               Создать
@@ -142,7 +142,7 @@
                 placeholder="Ссылка на изображение"
                 required
               />
-              <span class="popup__input-error" id="user-avatar-error"></span>
+              <span class="popup__input-error popup__input_type_avatar-error"></span>
             </label>
             <button type="submit" class="button popup__button popup__button_disabled" disabled>
               Сохранить
@@ -182,7 +182,7 @@
       </li>
     </template>
 
-    <!-- Шаблон элемента списка информации о карточке -->
+    <!-- Шаблон элемента информации о карточке -->
     <template id="popup-info-definition-template">
       <div class="popup__info-item">
         <dt class="popup__info-term"></dt>
@@ -190,7 +190,7 @@
       </div>
     </template>
 
-    <!-- Шаблон бейджа пользователя, лайкнувшего карточку -->
+    <!-- Шаблон бейджа пользователя -->
     <template id="popup-info-user-preview-template">
       <li class="popup__list-item popup__list-item_type_badge"></li>
     </template>
